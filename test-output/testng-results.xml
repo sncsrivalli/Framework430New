@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33085" started-at="2023-05-18T12:57:40Z" finished-at="2023-05-18T12:58:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33085" started-at="2023-05-18T12:57:40Z" finished-at="2023-05-18T12:58:13Z">
+      <class name="testngImplementation.CreateOrganizationTest">
+        <test-method status="PASS" signature="classConfiguration()[pri:0, instance:testngImplementation.CreateOrganizationTest@13deb50e]" name="classConfiguration" is-config="true" duration-ms="5583" started-at="2023-05-18T18:27:40Z" finished-at="2023-05-18T18:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method status="PASS" signature="methodConfiguration()[pri:0, instance:testngImplementation.CreateOrganizationTest@13deb50e]" name="methodConfiguration" is-config="true" duration-ms="2692" started-at="2023-05-18T18:27:46Z" finished-at="2023-05-18T18:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method status="FAIL" signature="createOrganizationTest()[pri:0, instance:testngImplementation.CreateOrganizationTest@13deb50e]" name="createOrganizationTest" duration-ms="21914" started-at="2023-05-18T18:27:49Z" finished-at="2023-05-18T18:28:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testngImplementation.CreateOrganizationTest.createOrganizationTest(CreateOrganizationTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:testngImplementation.CreateOrganizationTest@13deb50e]" name="methodTearDown" is-config="true" duration-ms="1561" started-at="2023-05-18T18:28:11Z" finished-at="2023-05-18T18:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:testngImplementation.CreateOrganizationTest@13deb50e]" name="classTearDown" is-config="true" duration-ms="819" started-at="2023-05-18T18:28:12Z" finished-at="2023-05-18T18:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testngImplementation.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
