@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+//Alert pop up explanation
 public class AlertPractice1 {
 
 	public static void main(String[] args) throws InterruptedException {
